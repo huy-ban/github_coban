@@ -1,5 +1,11 @@
 clear
+:q
 
+Repository
+Branch
+Conflict
+Local
+Remote
 
 git init
 git status
@@ -14,3 +20,7 @@ git branch
 git checkout -b{branchname}
 git merge {branch name}
 git branch -d {branch name}
+
+git push
+
+
