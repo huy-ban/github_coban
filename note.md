@@ -22,8 +22,12 @@ git merge {branch name}
 git branch -d {branch name}
 git push -u -origin dev
 git push
-
-
+git remove add origin {repo url}
+git push origin {branch name}
+git clone {repo url}
 git fetch origin 
-git checkout -b staging origin/staging
+git checkout -b {branch name} origin/{branch name}
+
+git pull
+
 
