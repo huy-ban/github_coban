@@ -20,7 +20,7 @@ git branch
 git checkout -b{branchname}
 git merge {branch name}
 git branch -d {branch name}
-git push -u -origin dev
+git push -u -origin {branch name}
 git push
 git remove add origin {repo url}
 git push origin {branch name}
